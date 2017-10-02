@@ -1,0 +1,26 @@
+{
+  "name": "acm-api",
+  "version": "1.0.0",
+  "description": "KSU ACM API.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksu-acm/acm-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksu-acm/acm-api/issues"
+  },
+  "homepage": "https://github.com/ksu-acm/acm-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.1",
+    "mysql": "^2.14.1"
+  }
+}
